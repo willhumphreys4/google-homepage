@@ -16,14 +16,22 @@ li a {
 	text-align: center;
 	text-decoration: none;
 }
-
+.header{
+	margin-right: 20px;
+}
 .header li{
 	display: inline;
 	width:80px;
 	float: right;
 }
 
+.header li img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 15px;
 
+}
 .contentmain{
 	display: block;
 	position: absolute;
