@@ -2,7 +2,28 @@ body{
 	background: #FFF;
 	margin:0;
 	padding: 0;
+	font-family: sans-serif;
 	}
+ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+}
+
+li a {
+	color: #7a8389;
+	text-align: center;
+	text-decoration: none;
+}
+
+.header li{
+	display: inline;
+	width:80px;
+	float: right;
+}
+
+
 .contentmain{
 	display: block;
 	position: absolute;
@@ -21,4 +42,29 @@ body{
 #srcbox{
 	display:inline;
 	width: 292px;
+}
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: inline;
+	font-size: 12px;
+	}
+
+.footer-left li {
+	display: inline;
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	float:left;
+	text-align: center;
+}
+
+.footer-right li {
+	display: inline;
+	width: 80px;
+	margin: 0;
+	padding: 0;
+	float:right;
+	text-align: center;
 }
